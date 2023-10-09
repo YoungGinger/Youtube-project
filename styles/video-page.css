@@ -1,0 +1,185 @@
+.video-preview {
+  width: 850px;
+}
+
+.video-preview-image-container {
+  width: 800px;
+  border-radius: 10px;
+  
+}
+
+.thumbnail-picture {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  justify-content: center;
+}
+
+.video-stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 70px 1fr;
+}
+
+.video-author-stats-flexbox {
+  display: flex;
+}
+
+.channel-picture {
+  border-radius: 50%;
+  width: 50px;
+  justify-content: center;
+}
+
+.author-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.author-name {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+  margin-right: 40px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold
+}
+
+.stats {
+  color: grey;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-button {
+  background-color: white;
+  border: none;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: solid;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.like-dislike-buttons {
+  display: flex;
+}
+
+.like-button {
+  width: 120px;
+  height: 40px;
+  position: relative;
+  border-radius: 15px 0px 0px 15px;
+  border: none;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+  background-color: white;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.like-button:hover,
+.dislike-button:hover,
+.subscribe-button:hover,
+.more-button:hover,
+.share-button:hover {
+  background-color: rgb(221, 220, 220);
+
+}
+
+.dislike-button {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  position: relative;
+  border: none;
+  border-radius: 0 15px 15px 0;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+  margin-left: -5px;
+  cursor: pointer;
+  justify-content: end;
+  align-items: center;
+  
+}
+
+.like-icon,
+.dislike-icon,
+.share,
+.three-dots {
+  width: 25px;
+}
+
+.dislike-icon {
+  position: absolute;
+  top: 7px;
+  left: 4px;
+}
+
+.like-icon {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+.share-button {
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  position: relative;
+  border: none;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+  margin-left: -5px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.share {
+  position: absolute;
+  left: 4px;
+  top: 5px;
+}
+
+.share-text {
+  display: inline;
+  margin-left: 60px;
+}
+
+.like-stats,
+.share-text {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+.like-stats {
+  padding-left: 14px;
+}
+
+.more-button {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  position: relative;
+  border: none;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+  margin-left: -5px;
+  cursor: pointer;
+  border-radius: 50%;
+}
