@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="styles/video-page.css">
     <link rel="stylesheet" href="styles/header-page.css">
     <link rel="stylesheet" href="styles/general-page.css">
-    <link rel="stylesheet" href="styles/sidebar-page.css">
+    <link rel="stylesheet" href="styles/sidebar-page-left.css">
+    <link rel="stylesheet" href="styles/sidebar-page-right.css">
   </head>
   <body>
     <main>
-      <header>
         <header class="header">
           <div class="left-section">
             <img class="hamburger-menu" src="icons/hamburger-menu.svg">
@@ -49,8 +49,9 @@
             <img class="profile-picture-youtube-icon" src="icons/profilepicture.jpg">
           </div>
         </header>
-      </header>
-      <section>
+        
+    <div class="main-grid">
+      <div class="first-half">
         <div class="video-preview">
           <div class="video-preview-image-container">
           <img class="thumbnail-picture" src="thumbnails/thumbnail-1.webp">  
@@ -85,6 +86,7 @@
                 <button class="share-button">
                   <img class="share" src="icons/share-icon.png">
                   <p class="share-text">Share</p>
+                
                 </button>
               </div>
               <div>
@@ -93,16 +95,14 @@
                 </button>
               </div>
             </div>
-         </div>
-         <div class="description">
+        </div>
+        <div class="description">
             <p>3,9 mln views  9 days ago</p>
             <p>I trained an AI in Trackmania with reinforcement learning, until I couldn't beat it. </p>
             <p>I just opened a Patreon page, where you can support this YouTube channel with a donation (link below) …
             </p>
         </div>
         </div>
-      </section>
-      <section>
         <div class="comments">
         <div class="comments-container">
           <div class="comments-quantity">
@@ -162,7 +162,7 @@
               </div>
               </div>
             </div>
-             <div class="comments-content">
+            <div class="comments-content">
               <div>
                 <img class="channel-picture" src="channel-pictures/channel-6.jpeg">  
               </div>
@@ -204,12 +204,41 @@
                   <img class="reaction-icon" src="icons/dislike-icon.png">
                 </button>
                 <button class="replay">Replay</button>
-              </div>
+                </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+        <div class="second-half">
+          <div class="right-sidebar">
+            <div class="recommended-video-flexbox">
+              <div class="recommended-thumbnail-relative"> 
+                <img class="recommended-thumbnail" src="thumbnails/thumbnail-2.webp">
+                <div class="video-time"> <p>12:30</p></div>
+              </div>
+              <div class="info-reco-video">
+              <p class="video-name">Image Reflection using CSS Property</p>
+              <p>WebKitCoding</p>
+              <p>438 views  &#183; 3 Years ago </p>
+            </div>
+            </div>
+            <div class="recommended-video-flexbox">
+              <div class="recommended-thumbnail-relative"> 
+                <img class="recommended-thumbnail" src="thumbnails/thumbnail-2.webp">
+                <div class="video-time"> <p>12:30</p></div>
+              </div>
+              <div class="info-reco-video">
+              <p class="video-name">Image Reflection using CSS Property</p>
+              <p>WebKitCoding</p>
+              <p>438 views  &#183; 3 Years ago </p>
+            </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
     </main>
   </body>
 </html>

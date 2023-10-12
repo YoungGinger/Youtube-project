@@ -1,0 +1,59 @@
+.right-sidebar {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  width: 500px ;
+
+}
+
+.recommended-thumbnail {
+  width: 210px;
+  border-radius: 5px;
+}
+
+.recommended-video-flexbox {
+  display: flex;
+  justify-content: center;
+  height: 130px;
+  margin-bottom: 10px;
+}
+
+.info-reco-video {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.info-reco-video p {
+  color: grey;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.info-reco-video .video-name {
+  font-size: 17px;
+  color: black;
+  margin-bottom: 11px;
+}
+
+.recommended-thumbnail-relative {
+  position: relative;
+}
+
+.video-time {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  padding: 2px 2px;
+  right: 5px;
+  bottom: 16px;
+  font-size: 14px;
+}
+
+.video-time p {
+  color: white;
+  font-weight: 50px;
+}
+
+
+

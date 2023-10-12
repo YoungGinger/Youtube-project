@@ -1,6 +1,18 @@
+.main-grid {
+  display: grid;
+  grid-template-columns: 910px 500px;
+  column-gap: 30px;
+}
+
+.second-half {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+
 .video-preview,
 .comments {
-  width: 850px;
+  width: 900px;
 }
 
 .video-preview-image-container {
