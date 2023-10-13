@@ -4,11 +4,6 @@
   column-gap: 30px;
 }
 
-.second-half {
-  display: flex;
-  justify-content: start;
-  flex-direction: row;
-}
 
 .video-preview,
 .comments {
@@ -222,6 +217,8 @@
   margin-right: 30px;
   margin-top: 10px;
   padding: 10px 15px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .description p {
