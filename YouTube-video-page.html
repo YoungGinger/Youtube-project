@@ -15,7 +15,9 @@
     <main>
         <header class="header">
           <div class="left-section">
-            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <div class="hamburger-container js-hamburger-container">
+              <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            </div>
             <img class="youtube-logo" src="icons/youtube-logo.svg">
           </div>
           <div class="middle-section">
@@ -49,7 +51,42 @@
             <img class="profile-picture-youtube-icon" src="icons/profilepicture.jpg">
           </div>
         </header>
-        
+       
+        <nav class="sidebar js-sidebar">
+          <div class="top-sidebar">
+            <div class="hamburger-container js-hamburger-container">
+              <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            </div>
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+          </div>
+          
+          <div class="sidebar-link">
+            <img class="sidebar-icons" src="icons/home.svg">
+            <div class="sidebar-text">Home</div>
+          </div>
+          <div class="sidebar-link">
+            <img class="sidebar-icons"  src="icons/explore.svg">
+            <div class="sidebar-text">Explore</div>
+          </div>
+          <div class="sidebar-link">
+            <img class="sidebar-icons"  src="icons/subscriptions.svg">
+            <div class="sidebar-text">Subscriptions</div>
+          </div>
+          <div class="sidebar-link">
+            <img  class="sidebar-icons" src="icons/originals.svg">
+            <div class="sidebar-text">Originals</div>
+          </div>
+          <div class="sidebar-link">
+            <img  class="sidebar-icons" src="icons/youtube-music.svg">
+            <div class="sidebar-text">Youtube music</div>
+          </div>
+          <div class="sidebar-link">
+            <img  class="sidebar-icons" src="icons/library.svg">
+            <div class="sidebar-text">Library</div>
+          </div>
+        </nav>
+          
+
     <div class="main-grid">
       <div class="first-half">
         <div class="video-preview">
@@ -259,12 +296,10 @@
               <p>141 M Views  &#183; 1 Year ago </p>
             </div>
             </div>
-            
-            
           </div>
         </div>
       </div>
-      
     </main>
+    <script src="scripts/YouTube-js.js"> </script>
   </body>
 </html>

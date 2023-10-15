@@ -17,6 +17,7 @@
 .left-section {
   display: flex;
   align-items: center;
+  width: 150px;
 }
 
 .middle-section {
@@ -96,7 +97,6 @@
 }
 
 .search-bar {
-
   height: 36px;
   flex: 1;
   padding-left: 10px;
@@ -122,11 +122,6 @@
   flex-shrink: 0;
 }
 
-.hamburger-menu {
-  height: 24px;
-  margin-left: 24px;
-  margin-right: 24px;
-}
 
 .upload-icon,
 .youtube-apps-icon,
@@ -154,4 +149,25 @@
   border-style: solid;
   border-radius: 50%;
 }
+
+
+.hamburger-container {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.hamburger-menu {
+  height: 24px;
+
+}
+
+.hamburger-menu:hover {
+  padding: 8px 8px;
+  background-color: rgb(228, 225, 225);
+  border-radius: 50%;
+}
+
+
 
