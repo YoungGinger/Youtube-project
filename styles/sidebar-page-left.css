@@ -1,26 +1,45 @@
 .sidebar {
-  display: none;
+  display: block;
   position: fixed;
   top: 0px;
   bottom: 0;
   left: 0;
-  width: 200px;
+  width: 0px;
   z-index: 1000;
   padding-top: 5px;
   background-color: white;
   align-items: start;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
 }
 
 .sidebar-link {
   height: 74px;
-  display: none;
+  display: flex;
   justify-content: start;
   align-items: center;
   column-gap: 30px;
   flex-direction: row;
   cursor: pointer;
   font-size: 50px;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
 }
+
+
+.sidebar.show {
+  opacity: 1;
+  width: 200px;
+  transition: all 0.3s ease-out;
+  .sidebar-link {
+     width: 300px;
+    opacity: 1;
+  
+  }
+}
+
+
 
 
 .sidebar-icons {
@@ -32,13 +51,6 @@
 }
 
 
-.sidebar.show {
-  display: block;
-  background-color: lightblue;
-  .sidebar-link {
-    display: flex;
-  }
-}
 
 
 .sidebar-link:hover {
@@ -59,4 +71,5 @@
   align-items: center;
   width: 150px;
   height: 55px;
+  margin-top: -5px;
 }

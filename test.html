@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>test</title>
+    <style>
+      .text,
+      .text2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+      
+      }
+
+      .text2 {
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+        transition: all 1s ease-out;
+        background-color: aqua;
+       
+      }
+
+      .text2.show {
+        opacity: 1;
+        height: 100px;
+        transition: all 1s ease-out;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="text js-text">
+      hello
+    </div>
+    <div class="text2 js-text2">
+      jak leci
+    </div>
+
+    <script>
+      const text = document.querySelector('.js-text');
+      text.addEventListener('click', function(){
+        const text2 = document.querySelector('.js-text2'); 
+        text2.classList.toggle('show');
+      });
+    </script>
+  </body>
+</html>
