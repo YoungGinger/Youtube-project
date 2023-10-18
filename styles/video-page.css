@@ -13,6 +13,46 @@
 .video-preview-image-container {
   width: 100%;
   border-radius: 10px;
+  position: relative; 
+  height: 505px;
+}
+
+.video-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: grey;
+  height: 40px;
+  border-radius: 0 0 10px 10px;
+}
+
+.progress-bar {
+  position: absolute;
+  bottom: 50px;
+}
+
+.video-bar-left-section {
+  display: flex;
+
+}
+
+.video-bar-right-section {
+  display: flex;
+}
+
+.video-bar-left-section img {
+  width: 25px;
+
+}
+
+
+.video-bar-right-section img{
+ width: 25px;
+
 }
 
 .video-name {
