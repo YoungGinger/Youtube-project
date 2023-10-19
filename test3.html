@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>test 3</title>
+    <style>
+      .video-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 900px;
+      }
+      video {
+        position: relative;
+        width: 100%;  
+      }
+   
+      .timeline .bar {
+        position: absolute;
+        left: 10px;
+        bottom: 50px;
+        right: 10px;
+        background: rgb(247, 246, 246);
+        height: 4px;
+        flex: 1;
+      }
+
+
+      .controls {
+        position: absolute;
+        display: flex;
+        left: 0;
+        right: 0;
+        bottom: 0px;
+        width: 100%;
+      }
+      
+      .controls button {
+        background-color: transparent;
+        border: none;
+
+      }
+      .controls img {
+        width: 30px;
+        background-color: transparent;
+      }
+
+      .left-controls  {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+      }
+
+      .right-controls  {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+      }
+</style>
+  </head>
+  <body>
+    <div class="video-container">
+      <video id="video" src="https://assets.codepen.io/9632/SampleVideo_1280x720_1mb.mp4"></video>
+      <div class="timeline">
+        <div class="bar">
+            <div class="inner"></div>
+        </div>
+    </div>
+    <div class="controls">
+      <div class="left-controls">
+        <button onclick="play(event)">
+      <i class="fa fa-play">
+        <img src="icons/icons8-play-90.png">
+      </i>
+
+      <i class="fa fa-stop">
+        <img src="icons/icons8-stop-90.png">
+      </i>
+    </button>
+    <button>
+      <i>
+        <img src="icons/icons8-last-1-100.png ">
+    </i>
+  </button>
+    <button>
+      <i>
+        <img src="icons/icons8-voice-96.png">
+    </i>
+    </button>
+      </div>
+      <div class="right-controls">
+        <button>
+          <i>
+
+          </i>
+        </button>
+        <button>
+          <i>
+
+          </i>
+        </button>
+        <button>
+          <i>
+
+          </i>
+        </button>
+        <button>
+          <i>
+
+          </i>
+        </button>
+        <button>
+          <i>
+
+          </i>
+        </button>
+      </div>
+    </div>
+
+
+
+
+    <script>
+
+    </script>
+  </body>
+</html>
