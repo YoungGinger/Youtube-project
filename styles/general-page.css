@@ -5,6 +5,10 @@ p {
 body {
   font-family: Roboto, Arial;
   margin: 0;
-  padding: 70px 0 200px 102px;
+  padding: 85px 0 200px 132px;
+}
+
+.second-half {
+  margin-left: 40px;
 }
 

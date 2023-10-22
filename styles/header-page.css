@@ -8,9 +8,6 @@
   top: 0;
   left: 0;
   right: 0;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: rgb(230, 230, 230);
   z-index: 1;
 }
 
@@ -23,10 +20,11 @@
 .middle-section {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex: 1;
   margin-left: 70px;
   margin-right: 35px;
-  max-width: 500px;
+  max-width: 1000px;
 }
 
 .youtube-logo {
@@ -98,7 +96,6 @@
 
 .search-bar {
   height: 36px;
-  flex: 1;
   padding-left: 10px;
   font-size: 16px;
   border-width: 1px;
@@ -106,7 +103,7 @@
   border-radius: 2px;
   border-color: rgb(192, 192, 192);
   box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05) ;
-  width: 0px;
+  width: 500px;
 }
 
 .search-bar::placeholder {
